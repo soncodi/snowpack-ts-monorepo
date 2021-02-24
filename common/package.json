@@ -1,0 +1,16 @@
+{
+  "name": "@soncodi/common",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "build/common.js",
+  "scripts": {
+    "clean": "rm -rf ./build ./tsconfig.tsbuildinfo"
+  },
+  "dependencies": {
+    "tslib": "~2.1.0"
+  },
+  "devDependencies": {
+    "typescript": "~4.2.2"
+  }
+}

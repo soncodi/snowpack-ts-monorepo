@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "sourceMap": false,
+
+    "moduleResolution": "Node",
+    // "esModuleInterop": true,
+
+    "baseUrl": "./",
+
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
