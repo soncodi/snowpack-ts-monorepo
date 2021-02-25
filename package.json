@@ -6,7 +6,8 @@
     "clean": "(cd common && npm run clean); (cd client && npm run clean); (cd server && npm run clean);",
     "build": "tsc -b tsconfig.build.json",
     "watch": "tsc -b -w tsconfig.build.json",
-    "client": "NODE_ENV=development snowpack dev",
+    "client": "NODE_ENV=development snowpack dev --reload",
+    "client-build": "NODE_ENV=production snowpack build",
     "server": "NODE_ENV=development nodemon --experimental-json-modules --delay 100ms --watch ./server/build server"
   },
   "devDependencies": {
