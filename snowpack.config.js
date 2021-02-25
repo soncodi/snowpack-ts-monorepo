@@ -1,7 +1,5 @@
 const cfg = require('./client/config.json');
 
-const PROD = process.env.NODE_ENV === 'production';
-
 module.exports = {
   workspaceRoot: './',
   devOptions: {
@@ -10,7 +8,7 @@ module.exports = {
       { match: 'routes', src: '.*', dest: '/index.html' }
     ],
     open: 'none',
-    hmr: !PROD,
+    hmr: true,
     hmrErrorOverlay: false,
     secure: false
   },
