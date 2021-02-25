@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "main": "src/common.ts",
+  "main": "build/common.js",
+  "snowpack:source": "src/common.ts",
   "scripts": {
     "clean": "rm -rf ./build ./tsconfig.tsbuildinfo"
   },
