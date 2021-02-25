@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "main": "build/common.js",
+  "main": "src/common.ts",
   "scripts": {
     "clean": "rm -rf ./build ./tsconfig.tsbuildinfo"
   },

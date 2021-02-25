@@ -7,12 +7,12 @@
     "build": "tsc -b tsconfig.build.json",
     "watch": "tsc -b -w tsconfig.build.json",
     "client": "NODE_ENV=development snowpack dev --reload",
-    "client-build": "NODE_ENV=production snowpack build",
+    "client-build": "NODE_ENV=production snowpack build --verbose",
     "server": "NODE_ENV=development nodemon --experimental-json-modules --delay 100ms --watch ./server/build server"
   },
   "devDependencies": {
     "nodemon": "~2.0.7",
-    "snowpack": "~3.1.0-pre.5"
+    "snowpack": "~3.1.0-pre.6"
   },
   "workspaces": [
     "*"
