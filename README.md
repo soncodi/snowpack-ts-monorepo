@@ -8,7 +8,6 @@ npm install
 
 ### run (in separate terminals)
 ```
-npm run watch
 npm run client
 npm run server
 ```
