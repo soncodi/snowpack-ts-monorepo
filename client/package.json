@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "clean": "rm -rf ./build ./tsconfig.tsbuildinfo"
+    "clean": "rm -rf ./build ./dist ./tsconfig.tsbuildinfo"
   },
   "dependencies": {
     "@soncodi/common": "*",

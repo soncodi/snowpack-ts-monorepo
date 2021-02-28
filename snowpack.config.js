@@ -13,9 +13,9 @@ module.exports = {
     secure: false
   },
   buildOptions: {
-    out: 'build',
+    out: './client/dist',
     baseUrl: '/',
-    watch: true,
+    watch: false,
     sourcemap: false
   },
   mount: {
