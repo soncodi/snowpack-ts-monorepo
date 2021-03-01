@@ -2,11 +2,11 @@ const cfg = require('./client/config.json');
 
 module.exports = {
   workspaceRoot: './',
+  routes: [
+    { match: 'routes', src: '.*', dest: '/index.html' }
+  ],
   devOptions: {
     port: cfg.clientPort,
-    routes: [
-      { match: 'routes', src: '.*', dest: '/index.html' }
-    ],
     open: 'none',
     hmr: true,
     hmrErrorOverlay: false,
@@ -19,7 +19,6 @@ module.exports = {
     sourcemap: false
   },
   mount: {
-    './common/src': { url: '/dist/@soncodi/common' },
     './client/src': { url: '/dist' },
     './client/public': { url: '/', static: true }
   }
